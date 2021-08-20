@@ -5,28 +5,42 @@
 }
 
 body {
-    background-color: rgb(183, 198, 255);
+    background-color: black;
 }
 
-.main {
-    height: 100vw;
-    background-image: url(img/main-bg@0.75x.png);
-    background-size: 100vw;
-    background-repeat: no-repeat;
+main {
+    background-color: black;
+}
+
+img {
+    max-height: 120vh;
+    max-width: 1000px;
+    min-width: 100vw;
 }
 
 .title {
-    margin-top: 15vw;
+    height: 100vw;
+    max-height: 500px;
+    background-color: hsl(224, 20%, 50%);
 }
 
 .text-main {
+    margin-left: 10vw;
+    padding-top: 5vh;
+    margin-top: 2vh;
     color: rgb(208, 215, 234);
     text-shadow:  -2px  4px 1px black, 2px  -2px 5px black, -10px  8px 10px rgb(0, 168, 255), -1px  6px 5px rgb(241, 20, 149);
 }
 
 .text-second {
+    margin-bottom: 5vh;
+    width: 80vw;
+    max-width: 1000px;
+    margin-left: 10vw;
     color: rgb(208, 215, 234);
     text-shadow:  -2px  2px 2px black, 2px  -2px 3px black, -2px  -2px 2px black, 2px  2px 2px black, -4px  4px 10px rgb(0, 168, 255), -1px  3px 5px rgb(241, 20, 149);
+    background-color: rgb(208, 215, 234);
+    box-shadow: -2px  4px 1px black, 2px  -2px 5px black, -8px  8px 8px rgb(0, 168, 255), -1px  6px 5px rgb(241, 20, 149);
 }
 
 p {
