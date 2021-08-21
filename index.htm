@@ -22,9 +22,9 @@
 
 <body>
 
-<nav class="navbar navbar-expand-md navbar-dark bg-prime fixed-top">
+<nav class="navbar navbar-expand-md navbar-light bg-prime fixed-top pt-1">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#index"><img class="logo" src="img/JSB-1.png" alt=""></a>
+        <a class="navbar-brand logo" href="#index"><img class="logo bg-black" src="img/JSB-1.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
             aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -35,7 +35,7 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#projects">Link 1</a>
+                    <a class="nav-link" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Link 2</a>
@@ -48,22 +48,25 @@
 <main class="flex-shrink-0 pt-5">
     
     <div class="main"><img class="start" src="img/mainbg-1.png" class="img-fluid" alt=""></div>
+    <div class="empty"></div>
     <div class="aboutme">
-        
-    <div class="cardd">
-        <h1 class="text-main-left fs-3">JESUS SAMUEL BEDOY</h1>
-        <h2 class="text-second-left fs-5">
-            For the past year, I have been learning web development. I took a few classes in college, did my own research, and completed Coder Foundry's online coding bootcamp.
-        </h2>
+        <div class="cardd">
+        <div class="container align-middle">
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col pt-md-5">
+                    <h1 class="box-1 fs-3">JESUS SAMUEL BEDOY</h1>
+                    <h1 class="box-2"><img class="img-fluid" src="" alt="profile pic"></h1>
+                    
+                </div>
+                <div class="col pt-md-5">
+                    <p class="box-2 fs-5">
+                        For the past year, I have been learning web development. I took a few classes in college, did my own research, and completed Coder Foundry's online coding bootcamp.
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
     </div>
-    <div class="cardd">
-        <h1 class="text-main-right float- fs-3">JESUS SAMUEL BEDOY</h1>
-        <h2 class="text-second-right align-center fs-5">
-            A starter template with a navbar HTML and CSS. A fixed navbar has been added with padding-top: 60px; on the main > .container.
-        </h2>
-    </div>
-    </div>
-
  </main>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
