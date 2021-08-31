@@ -2,115 +2,253 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    position: relative;
 }
 
-body {
-    background-color: black;
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.description {
+    height: 50px;
+    margin-top: 20px;
+}
+
+.bg-gradientt {
+    background-image: linear-gradient(to right, #8500ff, #7f00ff, #7a00ff, #7300ff, #6d00ff, #6d00ff, #6d00ff, #6d00ff, #7300ff, #7a00ff, #7f00ff, #8500ff);
+}
+
+.bg-sec {
+    background-color: #3523ae;
 }
 
 .bg-black {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-.bg-prime {
-    background-color: rgb(0, 168, 255);
+.bg-last {
+    background-color: #DEEAEF;
 }
 
-.bg-sec {
-    background-color: red;
+.text-black {
+    color: black;
+}
+
+.bg-prime {
+    background-color: #9B32FF;
+}
+
+.text-prime {
+    color: #9B32FF;
+}
+
+.bg-secc {
+    background-color: #00000089;
+}
+
+.text-sec {
+    color: #8500ff;
+}
+
+.gloww {
+    box-shadow: -5px 5px 10px #DEEAEF, 5px -5px 10px #DEEAEF, 5px 5px 10px #DEEAEF, -5px -5px 10px #DEEAEF;
+}
+
+
+.shadoww {
+    box-shadow: -5px 5px 10px #9b2dd280, 5px -5px 10px #9b2dd280, 5px 5px 10px #9b2dd280, -5px -5px 10px #9b2dd280;
+}
+
+
+.text-shadow {
+    text-shadow: -1px 1px 1px #DEEAEF, 1px -1px 1px #DEEAEF, 1px 1px 1px #DEEAEF, -1px -1px 1px #DEEAEF;
 }
 
 .navbar {
-    height: 10vh;
-    border-bottom: 2px solid black;
+    height: 100px;
+    border-bottom: 10px solid #DEEAEF;
+}
+
+.navbar-nav {
+    width: 50vw;
 }
 
 .logo {
-    height: 10vh;
-    border-radius: 15%;
-    padding-top: 5px;
+    height: 80px;
+    border-radius: 25px;
+    background: transparent
+}
+
+
+
+
+.main-img {
+    margin: 0;
+    margin-top: 0;
+    width: 100%;
+    height: 100vh;
+    max-height: 80vw;
+    min-height: 50vh;
+}
+
+.prop {
+    margin: 0;
+    margin-top: 100px;
+    width: 100%;
+    height: 100vh;
+    max-height: 80vw;
+    max-width: 150vh;
+    min-height: 45vh;
     
 }
 
-.start {
-    width: 100vw;
-    opacity: 0%;
-    animation: start;
-    animation-iteration-count: 1;
-    animation-duration: 2s;
-}
 
-
-.main {
-    background-image: url(img/mainbg-2.png);
-    width: 100vw;
-    height: auto;
-    background-repeat: no-repeat;
-    background-size: 100vw;
-    background-color: black;
-    max-height: 105vh;
-}
-
-.empty {
-    height: 5vh;
-    background-color: black;
-}
-
-@keyframes start {
-    0% {opacity: 100%}
-    70% {opacity: 99.5%}
-    99% {opacity: 98%}
-    100% {opacity: 0%;}
-}
 
 .aboutme {
-    background-image: url(img/dark-bg-2.jpg);
-    background-size: 80vh;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
-    padding-top: 5vh;
+    height: auto;
 }
 
-.cardd {
-    height: 100vw;
-    width: 80vw;
-    max-height: 500px;
+.about {
+    font-size: auto;
+}
+
+.intro {
+    height: 10px;
+}
+
+.intro-name {
+    text-align: center;
+    width: 75vw;
+    margin: 5vh;
+}
+
+.intro-bio {
     margin: auto;
 }
 
-.name {
-    margin-bottom: 2vh;
-    max-width: 1000px;
-    color: rgb(208, 215, 234);
-    text-shadow:  -2px  2px 2px black, 2px  -2px 3px black, -2px  -2px 2px black, 2px  2px 2px black, -4px  4px 10px rgb(0, 168, 255), -1px  3px 5px rgb(241, 20, 149);
-    background-color: rgba(208, 215, 234, 0.5);
-    box-shadow: -2px  4px 1px black, 2px  -2px 5px black, -8px  8px 8px rgb(0, 168, 255), 3px  6px 8px rgb(241, 20, 149);
+
+
+.skills {
+    margin: 0;
+    width: 100%;
+    max-width: 90vh;
 }
 
-.ppic {
-    width: 80vw;
-    max-width: 500px;
-    margin-bottom: 2vh;
+.skill {
     height: auto;
-    color: rgb(208, 215, 234);
-    text-shadow:  -2px  2px 2px black, 2px  -2px 3px black, -2px  -2px 2px black, 2px  2px 2px black, -4px  4px 10px rgb(0, 168, 255), -1px  3px 5px rgb(241, 20, 149);
-    background-color: rgba(208, 215, 234, 0.5);
-    box-shadow: -2px  4px 1px black, 2px  -2px 5px black, -8px  8px 8px rgb(0, 168, 255), 3px 6px 8px rgb(241, 20, 149);
+    max-width: 80vw;
 }
 
-.box-2 {
-    margin-bottom: 2vh;
+
+.skills-img {
     height: auto;
-    width: auto;
-    color: rgb(208, 215, 234);
-    text-shadow:  -2px  2px 2px black, 2px  -2px 3px black, -2px  -2px 2px black, 2px  2px 2px black, -4px  4px 10px rgb(0, 168, 255), -1px  3px 5px rgb(241, 20, 149);
-    background-color: rgba(208, 215, 234, 0.5);
-    box-shadow: -2px  4px 1px black, 2px  -2px 5px black, -8px  8px 8px rgb(0, 168, 255), 3px 6px 8px rgb(241, 20, 149);
+    max-height: 20vh;
+    background: transparent;
+}
+
+a>img:hover {
+    transform:scale(1.1);
+    -ms-transform:scale(1.1); /* IE 9 */
+    -moz-transform:scale(1.1); /* Firefox */
+    -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -o-transform:scale(1.1); /* Opera */
+}
+
+a>img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.skill-name {
+    text-decoration: none;
+}
+
+
+.challenges {
+    width: 100%;
+}
+
+.skill-img {
+    height: auto;
+    max-height: 20vh;
+}
+
+.challenge-img {
+    height: auto;
+    max-width: 80vw;
+    max-height: 25vh;
+}
+
+.challenge-img:hover {
+    transform:scale(1.1);
+    -ms-transform:scale(1.1); /* IE 9 */
+    -moz-transform:scale(1.1); /* Firefox */
+    -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -o-transform:scale(1.1); /* Opera */
+}
+
+.projects {
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    max-width: 175vh;
+}
+
+.project {
+    height: 30vh;
+    max-width: 80vw;
+    box-shadow: -5px 5px 5px #43366580, 5px -5px 5px #43366580, 5px 5px 5px #5a217680, -5px -5px 5px #5a217680;
+}
+
+.project-img {
+    height: auto;
+    max-width: 80vw;
+    max-height: 25vh;
+}
+
+.project-img:hover {
+    transform:scale(1.1);
+    -ms-transform:scale(1.1); /* IE 9 */
+    -moz-transform:scale(1.1); /* Firefox */
+    -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -o-transform:scale(1.1); /* Opera */
 }
 
 
 
-p {
-    font-size: 20pt;
+
+.contact_me {
+    width: 75vw;
+    height: 75vw;
+    margin: auto;
+    margin-bottom: 50px;
+    max-height: 75vh;
+    max-width: 800px;
+    border: 10px solid #DEEAEF;
+    border-radius: 50px;
+}
+
+.cssicon {
+    color: hsl(221, 100%, 65%);
+}
+
+
+
+footer {
+    background-color: black;
+    padding-right: 1rem;
+}
+
+footer .social>a {
+    color: white;
+    opacity: 0.75;
+}
+
+footer .social>a:hover {
+    opacity: 0.9;
+    color: #8500ff;
 }
