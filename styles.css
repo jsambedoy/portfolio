@@ -65,7 +65,11 @@
 }
 
 
-.text-shadow {
+.text-important {
+    text-align: center;
+    width: 50vw;
+    margin: auto;
+    color: white;
     text-shadow: -1px 1px 1px #DEEAEF, 1px -1px 1px #DEEAEF, 1px 1px 1px #DEEAEF, -1px -1px 1px #DEEAEF;
 }
 
@@ -134,10 +138,20 @@
 
 
 .skills {
-    margin: 0;
-    width: 100%;
     max-width: 90vh;
 }
+
+.projects {
+    background-color: grey;
+}
+
+
+
+
+.img-square {
+    max-height: 300px;
+}
+
 
 .skill {
     height: auto;
@@ -192,31 +206,8 @@ a>img {
     -o-transform:scale(1.1); /* Opera */
 }
 
-.projects {
-    margin-top: 15vh;
-    margin-bottom: 15vh;
-    max-width: 175vh;
-}
 
-.project {
-    height: 30vh;
-    max-width: 80vw;
-    box-shadow: -5px 5px 5px #43366580, 5px -5px 5px #43366580, 5px 5px 5px #5a217680, -5px -5px 5px #5a217680;
-}
 
-.project-img {
-    height: auto;
-    max-width: 80vw;
-    max-height: 25vh;
-}
-
-.project-img:hover {
-    transform:scale(1.1);
-    -ms-transform:scale(1.1); /* IE 9 */
-    -moz-transform:scale(1.1); /* Firefox */
-    -webkit-transform:scale(1.1); /* Safari and Chrome */
-    -o-transform:scale(1.1); /* Opera */
-}
 
 
 
