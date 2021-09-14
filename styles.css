@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     position: relative;
+    
+    max-height: 95vh;
 }
 
 body {
@@ -57,8 +59,6 @@ body {
 
 .text-important {
     text-align: center;
-    width: 50vw;
-    margin: auto;
     color: white;
     text-shadow: -1px 1px 1px #DEEAEF, 1px -1px 1px #DEEAEF, 1px 1px 1px #DEEAEF, -1px -1px 1px #DEEAEF;
 }
@@ -73,7 +73,10 @@ body {
 .logo {
     height: 80px;
     border-radius: 25px;
-    background: transparent
+    background: transparent;
+    animation: intro-2;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
 }
 
 
@@ -91,31 +94,53 @@ body {
     margin-top: 20px;
 }
 
+.space {
+    height: 100px;
+    padding-bottom: 100px;
+}
 
 .intro {
-    background-attachment: sticky;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     height: 56vw;
     width: 100vw;
     max-height: 95vh;
-    margin-top: 100px;
-    background-image: url(img/jellyfish-intro.jpg);
-    background-size: 100vw;
+    max-width: 100vw;
+    background-image: url(img/jellyfish-intro.png);
+    animation: intro;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
 }
 
 .intro-img {
     height: 25vw;
     margin-top: 22vw;
     min-height: 110px;
+    animation: intro;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
 }
 
+@keyframes intro {
+    0% {opacity: 0;}
+    10% {opacity: 0;}
+    50% {opacity: 75%;}
+    100% {opacity: 100%;}
+}
+
+@keyframes intro-2 {
+    0% {opacity: 0;}
+    75%{opacity: 0;}
+    100% {opacity: 100%;}
+}
 
 .skills {
     max-width: 90vh;
 }
 
 .projects {
+    max-width: 80vw;
     background-color: grey;
 }
 
@@ -159,6 +184,7 @@ a>img {
 
 .challenges {
     width: 100%;
+    height: auto;
 }
 
 .skill-img {
@@ -166,21 +192,9 @@ a>img {
     max-height: 20vh;
 }
 
-.challenge-img {
-    height: auto;
-    max-width: 80vw;
-    max-height: 25vh;
+.contact-me {
+    max-width: 500px;
 }
-
-.challenge-img:hover {
-    transform:scale(1.1);
-    -ms-transform:scale(1.1); /* IE 9 */
-    -moz-transform:scale(1.1); /* Firefox */
-    -webkit-transform:scale(1.1); /* Safari and Chrome */
-    -o-transform:scale(1.1); /* Opera */
-}
-
-
 
 footer {
     background-color: black;
