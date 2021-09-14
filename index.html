@@ -22,10 +22,10 @@
    </style>
 </head>
 
-<body class="bg-gradientt">
+<body>
 
 <!--nav bar-->
-<nav class="navbar navbar-expand-md navbar-dark bg-gradientt fixed-top pt-1">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top pt-1">
     <div class="container-fluid">
         <a class="navbar-brand logo" href="index.html"><img class="logo" src="img/JSB-1.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
@@ -48,10 +48,11 @@
     </div>
 </nav>
 
-<!--main-->
-<main class="main-img d-flex justify-content-center">
-    <img class="prop shadoww" src="img/mainbg-2.png" alt="img">
-</main>
+
+<!--INTRO-->
+<div class="intro d-flex align-content-center">
+        <img src="img/JSB-1.png" class="intro-img m-auto" alt="">
+</div>
 
 
 <!--about me-->
@@ -66,7 +67,7 @@
             </div>
             <div class="col-12 col-sm-6 d-flex justify-content-center">
                 <div class="about py-3 py-lg-1">
-                    <img class="img-fluid shadoww rounded" src="img/maybe/pp.png" alt="">
+                    <img class="img-fluid shadoww rounded" src="" alt="">
                 </div>
             </div>
             <div class="col-12 col-sm-6 d-flex justify-content-center">
@@ -85,7 +86,7 @@
 <div class="skills m-auto bg-glass pb-5">
     <div class="container-fluid">
         <h1 class="text-important text-center border-bottom border-5 border-light fs-1 mb-5">SKILLS</h1>
-        <div class="row row-cols-1 row-cols-sm-3 g-3">
+        <div class="row row-cols-2 row-cols-sm-3 g-3">
             <div class="col">
                     <img class="img-fluid img-square" src="img/html_css_js-1.png" alt="">
                     <div class="text-center text-light">Front End Developer</div>
@@ -119,7 +120,7 @@
 <div class="challenges pt-5">
     <div class="container-fluid bg-sec shadoww">
         <h1 class="text-important border-bottom border-5 border-light fs-1 pt-5 my-5">CODING CHALLENGES</h1>
-        <div class="row row-cols-1 row-cols-sm-3 row-cols-lg-6 g-3">
+        <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-6 g-3">
             <div class="col d-flex justify-content-center">
                 <a class="link" href="">
                     <img class="img-fluid" src="img/studying-2.png" alt="">
@@ -162,6 +163,38 @@
 
 <!--projects-->
 
+<div class="container-fluid my-5">
+    <h1 class="text-center text-light border-bottom border-light border-5 mb-5">
+        Projects
+    </h1>
+    <div class="row row-cols-2 row-cols-sm-4 justify-content-around mb-5">
+        <div class="col w-50">
+            <div class="card h-100 shadow">
+                <img src="/img/cn-red-blue-sm.png" class="card-img-top img-fluid border-bottom border-danger border-5" alt="Red blue">
+                <div class="card-body">
+                    <a href="https://ramen-project.netlify.app/" class="btn btn-sm btn-dark text-light d-flex justify-content-center">
+                        <div class="card-title fs-small">
+                            Cup Noodle <br> Website
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col w-50">
+            <div class="card h-100 shadow">
+                <img src="/img/studying-2.png" class="card-img-top img-fluid border-bottom border-danger border-5" alt="Red Orange">
+                <div class="card-body">
+                    <a href="/pages/red-orange.html" class="btn btn-sm btn-danger text-light d-flex justify-content-center">
+                        <div class="card-title fs-small">
+                            Red + Orange
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
 
 <div class="pros py-5v my-5">
     <h1 class="text-important border-bottom border-5 border-light fs-1 fs-1 pt-5 my-5">
@@ -230,13 +263,15 @@
     </div>
 </footer>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
-    </script>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+</script>
+
 </body>
 
 </html>
