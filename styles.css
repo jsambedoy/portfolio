@@ -114,7 +114,8 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-    .intro {height: 50vh; background-image: url(img/jellyfish-intro-small.jpg);}
+    .intro {
+        background-size:500px; background-image: url(img/jellyfish-intro-small.jpg);}
 }
 
 .intro-img {
@@ -147,9 +148,6 @@ body {
     max-width: 80vw;
     background-color: grey;
 }
-
-
-
 
 .img-square {
     max-height: 300px;
@@ -184,7 +182,6 @@ a>img {
 .skill-name {
     text-decoration: none;
 }
-
 
 .challenges {
     width: 100%;
