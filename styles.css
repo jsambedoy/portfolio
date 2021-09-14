@@ -66,11 +66,9 @@ body {
 
 .navbar {
     height: 100px;
+    background-color: rgba(11, 0, 74, 0.75);
 }
 
-.navbar-nav {
-    width: 50vw;
-}
 
 .logo {
     height: 80px;
@@ -95,16 +93,23 @@ body {
 
 
 .intro {
-    margin-top: 100px;
+    background-attachment: sticky;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 56vw;
     width: 100vw;
+    max-height: 95vh;
+    margin-top: 100px;
     background-image: url(img/jellyfish-intro.jpg);
     background-size: 100vw;
 }
 
 .intro-img {
-    max-width:80vw;
+    height: 25vw;
+    margin-top: 22vw;
+    min-height: 110px;
 }
+
 
 .skills {
     max-width: 90vh;
