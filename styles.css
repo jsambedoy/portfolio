@@ -117,6 +117,14 @@ body {
     .intro {
         background-size:750px; background-image: url(img/jellyfish-intro-small.jpg);}
 }
+@media only screen
+
+and (min-device-width: 600.1px)
+
+and (max-device-width: 1200px) {
+    .intro {
+        background-size:1200px; background-image: url(img/jellyfish-intro-small.jpg);}
+}
 
 .intro-img {
     height: 25vw;
