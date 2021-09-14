@@ -113,6 +113,10 @@ body {
     animation-iteration-count: 1;
 }
 
+@media only screen and (max-width: 600px) {
+    .intro {background-image: url(img/jellyfish-intro-small.png);}
+}
+
 .intro-img {
     height: 25vw;
     margin-top: 22vw;
