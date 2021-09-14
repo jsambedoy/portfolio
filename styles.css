@@ -115,7 +115,7 @@ body {
 
 @media only screen and (max-width: 600px) {
     .intro {
-        background-size:500px; background-image: url(img/jellyfish-intro-small.jpg);}
+        background-size:750px; background-image: url(img/jellyfish-intro-small.jpg);}
 }
 
 .intro-img {
