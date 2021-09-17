@@ -41,8 +41,8 @@
 <div class="space">
 
 </div>
-<div class="intro">
-        <img src="img/JSB-1.png" class="intro-img" alt="">
+<div id="parallax" class="intro ">
+        <img src="img/JSB-1.png" class="intro-img parallax_2" alt="">
 </div>
 
 
@@ -154,61 +154,63 @@
 
 
 <!--contact me-->
-<div class="contact_me bg-sec shadoww py-2 mt-5">
-    <div class="d-flex justify-content-center my-5">
-        <div class="container">
-            <h1 class="contact-me text-important fs-1 py-2 border-bottom border-light border-5 mt-1 mx-auto">Contact Me</h1>
-            <form name="contact" data-netlify="true" data-netlify-recaptcha="true" action="#" class="m-auto contact-me">
-                <div class="row mb-1">
-                    <div class="col">
-                        <label class="form-label text-prime">First Name</label>
-                        <input type="text" name="firstName" class="form-control"
-                            aria-label="First name" required>
-                    </div>
-                    <div class="col">
-                        <label class="form-label text-prime">Last Name</label>
-                        <input type="text" name="lastName" class="form-control"
-                            aria-label="Last name" required>
-                    </div>
-                </div>
-                <div class="row mb-1">
-                    <div class="col">
-                        <label class="form-label text-prime">Email</label>
-                        <input type="email" name="email" class="form-control"
-                            aria-label="Email" required>
-                    </div>
-                    <div class="col">
-                        <label class="form-label text-prime">Phone (optional)</label>
-                        <input type="text" name="phone" class="form-control"
-                            aria-label="Phone">
-                    </div>
-                </div>
-                <div class="row mb-1">
-                    <div class="col">
-                        <label class="form-label text-prime">Subject</label>
-                        <input type="text" name="subject" class="form-control"
-                            aria-label="Subject" required>
-                    </div>
-                </div>
-                <div class="row mb-1">
-                    <div class="col">
-                        <label class="form-label text-prime">Message</label>
-                        <textarea type="text" name="message" class="form-control"
-                            aria-label="Message" required></textarea>
-                    </div>
-                </div>
-                <div class="row mb-2">
-                    <div class="col">
-                        <div data-netlify-recaptcha="true">
+<div class="contact-bg">
+    <div class="contact_me py-2 mt-5">
+        <div class="d-flex justify-content-center my-5">
+            <div class="container gloww rounded-3 bg-sec p-5">
+                <h1 class="contact-me text-important fs-1 pb-2 border-bottom border-light border-5 mt-1 mx-auto">Contact Me</h1>
+                <form name="contact" data-netlify="true" data-netlify-recaptcha="true" action="#" class="m-auto contact-me">
+                    <div class="row mb-1">
+                        <div class="col">
+                            <label class="form-label text-light pt-3">First Name</label>
+                            <input type="text" name="firstName" class="form-control h-50"
+                                aria-label="First name" required>
+                        </div>
+                        <div class="col">
+                            <label class="form-label text-light pt-3">Last Name</label>
+                            <input type="text" name="lastName" class="form-control h-50"
+                                aria-label="Last name" required>
                         </div>
                     </div>
-                </div>
-                <button type="submit" class="btn btn-secondary mt-2">Submit</button>
-            </form>
+                    <div class="row mb-1">
+                        <div class="col">
+                            <label class="form-label text-light pt-3">Email</label>
+                            <input type="email" name="email" class="form-control h-50"
+                                aria-label="Email" required>
+                        </div>
+                        <div class="col">
+                            <label class="form-label text-light pt-3">Phone (optional)</label>
+                            <input type="text" name="phone" class="form-control h-50"
+                                aria-label="Phone">
+                        </div>
+                    </div>
+                    <div class="row mb-1">
+                        <div class="col">
+                            <label class="form-label text-light pt-3">Subject</label>
+                            <input type="text" name="subject" class="form-control h-50"
+                                aria-label="Subject" required>
+                        </div>
+                    </div>
+                    <div class="row mb-1">
+                        <div class="col">
+                            <label class="form-label text-light pt-3">Message</label>
+                            <textarea type="text" name="message" class="form-control h-50"
+                                aria-label="Message" required></textarea>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col">
+                            <div data-netlify-recaptcha="true" class="h-50">
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-secondary mt-2">Submit</button>
+                </form>
+            </div>
         </div>
-    </div>
-    <div class="text-secondary text-center">
-        Thank you for your valuable time! :)
+        <div class="text-light bg-prime text-center">
+            Thank you for your valuable time! :)
+        </div>
     </div>
 </div>
 
@@ -243,6 +245,8 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
 </script>
+
+<script src="main.js"></script>
 
 </body>
 

@@ -205,6 +205,13 @@ a>img {
     max-width: 500px;
 }
 
+.contact-bg {background-color: #6400ff;
+    opacity: 0.8;
+    background: fixed;
+    background-image:  linear-gradient(#b381ff 1.4000000000000001px, transparent 1.4000000000000001px), linear-gradient(to right, #b381ff 1.4000000000000001px, #6400ff 1.4000000000000001px);
+    background-size: 28px 28px;
+}
+
 footer {
     background-color: black;
     padding-right: 1rem;
