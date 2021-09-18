@@ -148,14 +148,21 @@ and (max-device-width: 1200px) {
     100% {opacity: 100%;}
 }
 
+.aboutme {
+    background-attachment: fixed;
+    background-color: #6400ff;
+opacity: 0.8;
+background-image:  linear-gradient(135deg, #b381ff 25%, transparent 25%), linear-gradient(225deg, #b381ff 25%, transparent 25%), linear-gradient(45deg, #b381ff 25%, transparent 25%), linear-gradient(315deg, #b381ff 25%, #6400ff 25%);
+background-position:  10px 0, 10px 0, 0 0, 0 0;
+background-size: 20px 20px;
+background-repeat: repeat;
+}
+
 .skills {
     max-width: 90vh;
 }
 
-.projects {
-    max-width: 80vw;
-    background-color: grey;
-}
+
 
 .img-square {
     max-height: 300px;
@@ -196,8 +203,17 @@ a>img {
     height: auto;
 }
 
+.challenges-bg {
+    background:fixed;
+    background-color: #6400ff;
+    opacity: 0.8;
+    background-image:  linear-gradient(#b381ff 2px, transparent 2px), linear-gradient(90deg, #b381ff 2px, transparent 2px), linear-gradient(#b381ff 1px, transparent 1px), linear-gradient(90deg, #b381ff 1px, #6400ff 1px);
+    background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
+    background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+
 .skill-img {
-    height: auto;
+    height: autoh;
     max-height: 20vh;
 }
 
@@ -207,9 +223,9 @@ a>img {
 
 .contact-bg {background-color: #6400ff;
     opacity: 0.8;
-    background: fixed;
-    background-image:  linear-gradient(#b381ff 1.4000000000000001px, transparent 1.4000000000000001px), linear-gradient(to right, #b381ff 1.4000000000000001px, #6400ff 1.4000000000000001px);
-    background-size: 28px 28px;
+    background-attachment: fixed;
+    background-image:  linear-gradient(#b381ff 1px, transparent 1px), linear-gradient(to right, #b381ff 1px, #6400ff 1px);
+    background-size: 20px 20px;
 }
 
 footer {
