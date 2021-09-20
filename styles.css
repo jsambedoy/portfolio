@@ -3,10 +3,15 @@
     margin: 0;
     padding: 0;
     position: relative;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 body {
     overflow-x: hidden;
+}
+
+form {
+    opacity: .8;
 }
 
 .bg-gradientt {
@@ -14,7 +19,7 @@ body {
 }
 
 .bg-sec {
-    background-color: #00299a;
+    background-color: #6c0bda;
 }
 
 .text-black {
@@ -22,12 +27,9 @@ body {
 }
 
 .bg-prime {
-    background-color: #6c0bda;
+    background-color: #002078;
 }
 
-.text-prime {
-    color: #9B32FF;
-}
 
 .border-prime {
     border: 5px solid #6C0BDA;
@@ -66,8 +68,12 @@ body {
 }
 
 .description {
-    height: 50px;
+    height: auto;
     margin-top: 20px;
+}
+
+.btn-prime {
+    background-color:#6d00ff;
 }
 
 .space {
@@ -190,8 +196,16 @@ background-size: 80px 80px;
 background-position: 0 0,40px 40px;
 }
 
+.caption {
+    font-size: 10px;
+}
+
 .skill-img {
     height: auto;
+}
+
+.contact_me {
+    max-width: 750px;
 }
 
 .contact-me {
