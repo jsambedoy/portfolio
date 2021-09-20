@@ -29,26 +29,24 @@
 
 <body class=" bg-prime">
 
-<!--NAVBAR-->
-
-
 <!--INTRO-->
 
 </div>
-<div id="parallax" class="intro">
-        <img src="img/JSB-1.png" class="intro-img" alt="">
+<div id="parallax" class="intro d-flex align-content-end flex-wrap  border-bottom-sm">
+            <div><img src="img/JSB-1.png" class="logo" alt=""><h1 class="text-important ms-4 mb-4 ms-sm-5">WEB DEVELOPER</h1></div>
+            
 </div>
 
 
 <!--about me-->
-<div class="aboutme border-bottom border-dark py-5">
-    <div class="container gloww rounded-3 bg-sec py-3 p-auto my-5 mx-auto">
+<div class="aboutme border-bottom border-dark py-1 py-md-5">
+    <div class="container border border-5 border-light rounded-3 bg-sec py-3 p-auto my-5 mx-auto">
                 <div class="text-important fs-1 py-2 border-bottom border-light border-5 mt-1">
                     ABOUT ME
                 </div>
                 <div class="about py-3 py-l m-sm-5">
                     <div class="text-light fs-3 border-bottom border-secondary border-1 pb-2">
-                        My name is Jesus Samuel Bedoy, but I prefer being called Sam. I am 19 years old, and I want to learn everything I can about web development.
+                        My name is Jesus Samuel Bedoy, but I like being called Sam. I am 19 years old, and I want to learn everything I can about web development.
                     </div>
                     <div class="text-light fs-3 pt-2">
                         For almost an entire year, my goal has been to become a professional Web Developer. I have taken a few college courses, and I'm enrolled in Coder Foundry's online Bootcamp, but I have actually taught myself most of what I know.
@@ -61,7 +59,7 @@
 <!--skills-->
 <div class="skills py-5 my-5 mx-auto">
     <div class="container-fluid">
-        <h1 class="text-important fs-2 py-2 border-bottom border-light border-5">
+        <h1 class="text-important border-bottom border-5 border-light fs-1 mb-5">
             SKILLS
         </h1>
         <div class="row row-cols-2 row-cols-sm-3 g-3">
@@ -95,7 +93,7 @@
 </div>
 
 <!--coding challenges-->
-<div class="challenges challenges-bg">
+<div class="challenges challenges-bg border-bottom border-top border-dark">
     <div class="container-fluid py-5 my-5">
         <h1 class="text-important bg-sec fs-2 py-2 border-bottom border-light border-5">
             CODING CHALLENGES
@@ -125,21 +123,27 @@
 
 <!--projects-->
 <div class="projects py-5v my-5">
-    <h1 class="text-important border-bottom border-5 border-light fs-1 fs-1 pt-5 my-5">
+    <h1 class="text-important border-bottom border-5 border-light fs-1 pt-5 my-5">
         Projects
     </h1>
-    <div class="container-fluid">
-        <div class="row row-cols-1 row-cols-sm-2">
+    <div class="container-fluid py-5 my-5">
+        <div class="row row-cols-1 row-cols-sm-3">
             <div class="project col d-flex justify-content-center justify-content-sm-end">
                 <a class="link" target="_blank" href="https://ramen-project.netlify.app/">
                     <img class="img-fluid img-square" src="img/cn-red-blue-sm.png" alt="">
-                    <div class="text-center text-light py-2">Cup Noodle Website</div>
+                    <div class="description text-center bg-prime pt-1">Cup Noodle Website</div>
+                </a>
+            </div>
+            <div class="project col d-flex justify-content-center justify-content-sm-end">
+                <a class="link" target="_blank" href="https://tictactoe-pro.netlify.app/">
+                    <img class="img-fluid img-square" src="img/tic-tac-toe.jpg" alt="">
+                    <div class="description text-center bg-prime pt-1">Tic-Tac-Toe Game</div>
                 </a>
             </div>
             <div class="project col d-flex justify-content-center justify-content-sm-start">
                 <div class="link">
                     <img class="img-fluid img-square" src="img/blog-logo.png" alt="">
-                    <div class="text-center text-light py-2">Blog Project</div>
+                    <div class="description text-center bg-prime pt-1">Blog Project</div>
                 </div>
             </div>
         </div>
@@ -148,11 +152,11 @@
 
 
 <!--contact me-->
-<div class="contact-bg mb-5">
-    <div class="contact_me py-2 mt-5">
-        <div class="d-flex justify-content-around my-5">
-            <div class="container gloww rounded-3 bg-sec p-5">
-                <h1 class="contact-me text-important text-center fs-1 pb-2 border-bottom border-light border-5 mt-1 mx-auto">Contact Me</h1>
+<div class="contact-bg border-bottom border-top border-dark">
+    <div class="py-2 mt-5 mx-md-5">
+        <div class="d-flex justify-content-around my-5 mx-md-5">
+            <div class="container bg-prime  border border-5 border-light rounded-3 p-5">
+                <h1 class="text-important text-center fs-1 pb-2 border-bottom border-light border-5 mt-1 mx-auto">Contact Me</h1>
                 <div class="row d-flex justify-content-around">
                     <div class="col-12">
                         <form name="contact" data-netlify="true" data-netlify-recaptcha="true" action="#" class="m-auto contact-me">
@@ -206,10 +210,10 @@
                 </div>
             </div>
         </div>
-        <div class="text-light bg-prime text-center my-5">
-            Thank you for your valuable time! :)
-        </div>
     </div>
+</div>
+<div class="thankyou-msg text-light bg-prime text-center m-auto">
+    Thank you for your valuable time! :)
 </div>
 
 <!--footer-->
