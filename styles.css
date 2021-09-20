@@ -14,6 +14,8 @@ form {
     opacity: .8;
 }
 
+
+
 .bg-gradientt {
     background-image: linear-gradient(to right, #8500ff, #7f00ff, #7a00ff, #7300ff, #6d00ff, #6d00ff, #6d00ff, #6d00ff, #7300ff, #7a00ff, #7f00ff, #8500ff);
 }
@@ -67,10 +69,7 @@ form {
     color: rgba(255, 255, 255, 0.75);
 }
 
-.description {
-    height: auto;
-    margin-top: 20px;
-}
+
 
 .btn-prime {
     background-color:#6d00ff;
@@ -134,17 +133,15 @@ and (max-device-width: 1200px) {
     100% { margin-left: 5vw;}
 }
 
-.aboutme {
+.pattern-bg{
     background-attachment: fixed;
-    background-color: #00299a;
+    background-color: #7020dc;
 opacity: 1;
-background-image: linear-gradient(-45deg, #00299a, #00299a 50%, #6c0bda 50%, #6c0bda);
-background-size: 40px 40px;
+background-image:  linear-gradient(#3C06A0 1px, transparent 1px), linear-gradient(to right, #3C06A0 1px, #7020dc 1px);
+background-size: 20px 20px;
 }
 
-.skills {
-    max-width: 90vh;
-}
+
 
 
 
@@ -152,8 +149,7 @@ background-size: 40px 40px;
     max-height: 300px;
 }
 
-
-.skill {
+.section{
     height: auto;
     max-width: 80vw;
 }
@@ -178,8 +174,8 @@ a>img {
     max-height: 200px;
 }
 
-.skill-name {
-    text-decoration: none;
+.skills {
+    max-width: 750px;
 }
 
 .challenges {
@@ -202,6 +198,22 @@ background-position: 0 0,40px 40px;
 
 .skill-img {
     height: auto;
+}
+
+.project {
+    max-width:75vw;
+}
+
+.project-bg-1 {
+    background-color: #23143e;
+}
+
+.project-bg-2 {
+    background-color: #2523ae;
+}
+
+.project-bg-3 {
+    background-color: #0a001d;
 }
 
 .contact_me {
